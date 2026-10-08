@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lambay Batangas Tours</title>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav>
+      <a href="#home"><img src="logo.png" alt="Lambay Batangas Tours logo" width="60" height="60"></a>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tour-packages">Tour Packages</a></li>
+        <li><a href="#why-choose-us">Why Choose Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME / HERO -->
+    <section id="home">
+      <div>
+        <h1>Discover Batangas.<br>Live the Journey.</h1>
+        <p>
+          Experience the places, people, and adventures that make Batangas worth exploring.
+          Discover breathtaking beaches, beautiful landscapes, rich local culture, and unforgettable
+          moments as you journey through one of the Philippines' most captivating destinations.
+        </p>
+
+        <p>
+          <a href="#tour-packages"><button type="button">View Packages</button></a>
+          <a href="#about"><button type="button">Learn More</button></a>
+        </p>
+
+        <ul>
+          <li><strong>10+</strong><br>Destinations</li>
+          <li><strong>20+</strong><br>Tour Packages</li>
+          <li><strong>2k+</strong><br>Travelers Served</li>
+        </ul>
+      </div>
+
+      <!-- BOOKING FORM -->
+      <aside>
+        <form action="#" method="post">
+          <h2>Your Next<br>Adventure Awaits</h2>
+
+          <p>
+            <label for="package">Tour Package</label><br>
+            <select id="package" name="package">
+              <option>Beach &amp; Island Tour</option>
+              <option>Cultural Tour</option>
+              <option>Adventure Tour</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="destination">Destination</label><br>
+            <select id="destination" name="destination">
+              <option>Masasa Beach</option>
+              <option>Anilao</option>
+              <option>Taal Volcano</option>
+              <option>Calatagan</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="departure">Departure</label><br>
+            <input type="date" id="departure" name="departure" value="2026-03-22">
+          </p>
+
+          <p>
+            <label for="return">Return</label><br>
+            <input type="date" id="return" name="return" value="2026-03-25">
+          </p>
+
+          <p>
+            <label for="guest">Guest</label><br>
+            <input type="number" id="guest" name="guest" value="2" min="1">
+          </p>
+
+          <p>
+            <label for="tour-type">Tour Type</label><br>
+            <select id="tour-type" name="tour_type">
+              <option>Beach Tour</option>
+              <option>Island Hopping</option>
+              <option>Mountain Tour</option>
+              <option>City Tour</option>
+            </select>
+          </p>
+
+          <p><button type="submit">GET YOU DEAL NOW</button></p>
+        </form>
+      </aside>
+    </section>
+
+  </main>
+
+</body>
+</html>
